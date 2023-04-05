@@ -3,9 +3,36 @@
 
 #include <iostream>
 
+int Ex1_3() {
+    std::cout << "Ex1_3: " << std::endl;
+    std::cout << "Hello, ";
+    printf("world!\n");
+    return 1;
+}
+
+double MultiTwo(double v1, double v2) {
+    std::cout << "Ex1_4: " << std::endl;
+    return v1 * v2;
+}
+void Ex1_5(double v1, double v2) {
+    std::cout << "Ex1_5: " << std::endl;
+    std::cout << "The sum of";
+    std::cout << v1;
+    std::cout << "and";
+    std::cout << v2;
+    std::cout << "is";
+    std::cout << v1 + v2;
+    std::cout << std::endl;
+
+}
 int main()
 {
-    std::cout << "Hello WorldEx2!\n";
+    int check1_3 = Ex1_3();
+    double check1_4 = MultiTwo(1.2, 2.4);
+    printf("%1.3f\n",check1_4);
+    Ex1_5(2.4, 3.6);
+
+    return check1_3;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
