@@ -9,6 +9,6 @@ Visual Studio 2022
 调制配置为 X86-Debug  
 
 # 教材资源
-链接：https://pan.baidu.com/s/1W-i5kiweSyTdn45JU5IwsQ 
-提取码：rv24
+链接：https://pan.baidu.com/s/1W-i5kiweSyTdn45JU5IwsQ  
+提取码：rv24  
 解压密码为此仓库名称
