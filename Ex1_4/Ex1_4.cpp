@@ -3,9 +3,51 @@
 
 #include <iostream>
 
+int Ex1_9() {
+    int count = 50;
+    int sum = 0;
+    while (count <= 100) {
+        sum = sum + count;
+        count++;
+    }
+    std::cout << sum<<std::endl;
+    return sum;
+}
+int Ex1_10() {
+    int count = 10;
+    for (count = 10; count >= 0; count--) {
+        printf("%d ", count);
+    }
+    return 0;
+}
+int Ex1_11() {
+    std::cout << "请输入两个整数：" << std::endl;
+    int v1;
+    int v2;
+    std::cin >> v1 >> v2;
+    for (int i = v1; i <= v2; i++) {
+        printf("%d ", i);
+    }
+    return 0;
+}
+void Ex1_16() {
+    std::cout << "请输入一组数：" << std::endl;
+    double v_buff;
+    double v_sum = 0;
+    while (std::cin >> v_buff) {
+        v_sum += v_buff;
+        printf("v_sum == %f\n", v_sum);
+    }
+    
+
+}
 int main()
 {
     std::cout << "Hello World!\n";
+    int v1 = Ex1_9();
+    int v2 = Ex1_10();
+    int v3 = Ex1_11();
+    Ex1_16();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
